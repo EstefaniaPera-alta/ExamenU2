@@ -8,14 +8,17 @@ import Examen.Listas;
 public class Recursividad {
     public static void Recursivo(int n[], int cont)
     {
-        
-        if(n[cont])
+        int[] ar1=new int[5];
+        int[] ar2=new int[5];
+        if(n[cont]%2==0)
         {
             //Es par, guardar x
+            ar1[cont];
             System.out.println("");
         }else
         {
             //Es impar, guaradar y
+            ar2[cont];
         }
         //Mostrar 
         for(int i=0;i<=5;i++)
