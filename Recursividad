@@ -1,0 +1,44 @@
+package Unidad3.Examen;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import Examen.Listas;
+
+public class Recursividad {
+    public static void Recursivo(int n[], int cont)
+    {
+        
+        if(n[cont])
+        {
+            //Es par, guardar x
+            System.out.println("");
+        }else
+        {
+            //Es impar, guaradar y
+        }
+        //Mostrar 
+        for(int i=0;i<=5;i++)
+        {
+            System.out.println("");
+            //Mostrar par, impar  
+        }
+        
+    }
+    
+    public static void main(String[] args) {
+        
+        int[] num=new int[10];
+        Scanner leer=new Scanner(System.in);
+        int i;
+        for(i=0;i<=10;i++)
+        {
+            System.out.println("ingresa un nuemro");
+            num[i]=leer.nextInt();
+            
+        }
+        Recursivo(num, i);
+        
+        
+    }
+}
